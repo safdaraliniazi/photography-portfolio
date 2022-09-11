@@ -1,0 +1,234 @@
+
+.card-img-top{
+    height: 400px !important;
+}
+header{
+    background: rgb(112,11,1);
+    background: linear-gradient(90deg, rgba(112,11,1,0.1) 50%, rgba(1,50,28,0.1) 50%);
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 2px 15px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+header .nav-item:last-child{
+    padding-right: 10.5em;
+}
+header .nav-item{
+    padding: 0.9em;
+}
+header .nav-link{
+    color: black;
+}
+header .nav-link:hover{
+    color: rgb(150, 47, 119);
+}
+header .row .col-md-5{
+    padding: 4.2vmin 1vmin;
+}
+header .row .col-md-7{
+    padding: 22vmin 1vmin !;
+    padding-bottom: 35vmin;
+}
+header .row .col-md-5 img{
+    width: 80%;
+    float: right;
+    
+}
+header .container .col-md-7 h1{
+    margin-top: 1.2em;
+    font-size: 8.5vmin;
+    font-weight: 200;
+    padding: 0.1em 0em;
+    letter-spacing: 4px;
+}
+header .container .col-md-7 p{
+    padding: 1vmin 5vmin;
+    letter-spacing: 1px;
+    
+}
+.navbar-brand{
+   padding-left: 8rem;
+   color: black;
+}
+
+.navbar-brand img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 3px;
+    border-radius: 50%;
+ }
+
+ .section-1{
+    padding: 20vmin 0;
+    
+ }
+ 
+ .section-1 .col-md-6 img{
+   
+    width: 80%;
+    border-radius: 0.2em;
+ }
+
+ .section-1 .row .col-md-6:last-child{
+    position: relative;
+    
+ }
+ .section-1 .row .col-md-6 .panel{
+  
+    border: 2px solid gold;
+    position:absolute;
+    top: 7vmin;
+    left: -18vmin;
+    padding: 10vmin 5vmin 20vmin 10vmin;
+    background: white;
+    border-radius: 3px;
+    text-align: left;
+    box-shadow: 0px 25px 42px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+ }
+ .section-1 .row .col-md-6 .panel h1{
+    font-weight: 200;
+    padding: 0.4em 0 ;
+    font-size: 2.5em;
+ }
+ .section-1 .row .col-md-6 .panel p{
+    font-size: 1em;
+
+ }
+ .cover{
+    width: 100%;
+    height: 55vmin;
+    background: rgb(62,81,81);
+    background: linear-gradient(90deg, rgba(62,81,81,1) 11%, rgba(83,97,92,1) 24%, rgba(94,106,98,1) 41%, rgba(135,137,119,1) 83%, rgba(185,175,145,1) 97%);
+    background-position: -24rem -19rem;
+    background-size: 150%;
+    position: relative;
+ }
+ .cover h1{
+    color: white;
+    font-weight: 200;
+    font-size: 9vmin;
+
+
+ }
+ .cover p{
+    color: white;
+    font-size: 3vmin;
+    font-family:'Lucida Sans Regular';
+        
+
+ }
+ .stats .rect{
+    position: relative;
+    z-index: 1;
+    background-color: #fff;
+    width: 17rem;
+    height: 12rem;
+    padding-top: 3.5vmin;
+    margin: 1rem;
+    border-radius: .5em;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+ }
+ .stats{
+    margin-top: -15vmin;
+ }
+ .cover .content{
+    height: 100%;
+    width: 100%;
+    padding-top: 19vmin;
+ }
+ .stats .rect h1{
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+ }
+ .stats .rect p{
+    text-align: center;
+    font-size: 1rem;
+    
+ }
+ .pics-showcase h1{
+     padding-top: 10vmin;
+     font-weight: 100;
+     font-size: 10vmin;
+     padding-bottom: 0.1em;
+ }
+ .pics-showcase p{
+    font-weight: 100;
+    font-size: 5vmin;
+    padding-bottom: 10vmin;
+}
+
+.pics-showcase .card-deck .card{
+    width: 22rem;
+    margin: 2vmin;
+    padding-bottom: 5vmin;
+}
+.card-deck div{
+    padding: 0;
+    margin: 0;
+}
+
+.card .card-text{
+    padding: 2.5rem 3rem;
+}
+.card-title{
+    padding: 1.4rem 2.5rem;
+    font-size: 3vmin;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: rgb(222, 215, 215);
+}
+.card{
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.fa-facebook-f{
+    color: #4267B2;
+    
+}
+.fa-twitter{
+    color:#1DA1F2;
+}
+.fa-google{
+    color: #DB4437;
+}
+.fa-instagram{
+    color: #C13584;
+}
+.fa-linkedin{
+    color: #0A66C2;
+}
